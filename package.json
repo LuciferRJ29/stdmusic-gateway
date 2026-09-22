@@ -1,0 +1,12 @@
+{
+  "name": "stdmusic-gateway",
+  "version": "1.0.0",
+  "description": "Dynamic Cloud Gateway & Load Router for STD MUSIC",
+  "main": "index.html",
+  "keywords": [
+    "std-music",
+    "vercel",
+    "gateway"
+  ],
+  "author": "STD DEEPANSHU"
+}
