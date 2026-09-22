@@ -3,7 +3,7 @@ export default function handler(req, res) {
   res.setHeader('Cache-Control', 's-maxage=60, stale-while-revalidate');
   res.status(200).json({
     status: "online",
-    api_url: process.env.HEROKU_API_URL || "https://stdmusic-f5404e4367fe.herokuapp.com/",
+    api_url: process.env.HEROKU_API_URL || "https://std-music-8fb1fd982073.herokuapp.com/",
     gateway_version: "1.0.0",
     app_name: "STD MUSIC",
     developer: "STD DEEPANSHU",
